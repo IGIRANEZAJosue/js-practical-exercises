@@ -8,4 +8,4 @@ const sortProducts = (products) => {
    return products.sort((a, b) => a.price - b.price);
 }
 
-console.log(sortProducts([{ name: 'a', price: 200 }, { name: 'b', price: 100 }, { name: 'c', price: 125 }]));
+console.log(sortProducts([{ name: 'a', price: 150 }, { name: 'b', price: 125 }, { name: 'c', price: 3 }]));
